@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+body {
+    background-color: black;
+    color: white;
+    padding: 0% !important;
+}
+
 #Container-a {
     background-color: black;
     width: 40%;
@@ -61,9 +67,6 @@
     text-align: center; /* Centralizando o conteúdo do botão */
 }
 
-@media (max-width: 880px) {
-    /* Aplique estilos específicos para telas menores aqui, se necessário */
-}
 
 #texto {
     color: #008000;
@@ -136,8 +139,6 @@
   }
 
 @media screen and (max-width: 768px){
-    width: 100%;
-    flex-direction: column;
 
 }
 
@@ -166,4 +167,28 @@
 
 #termos2 a {
     text-decoration: none !important;
+}
+
+@media screen and (max-width: 768px) {
+    #Container-a,
+    #Container-b {
+        width: 100%;
+        padding-left: 5%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    #título1 {
+        font-size: 28px;
+    }
+
+    #Container-c,
+    #Container-d {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 20px;
+        display: inline-block;
+    }
 }
