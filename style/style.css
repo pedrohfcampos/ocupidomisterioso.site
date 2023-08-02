@@ -50,8 +50,8 @@
 }
 
 #botão {
-    width: 70%;
-    max-width: 414px;
+    width: 100%;
+    max-width: 768px;
     padding: 20px 40px;
     background-color: #000000;
     border-radius: 50px 50px 50px 50px;
