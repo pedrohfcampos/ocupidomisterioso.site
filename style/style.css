@@ -55,6 +55,11 @@ body {
     padding-top: -10%;
 }
 
+.text-center {
+    text-align: center;
+    font-size: 20px;
+}
+
 .btn-cta {
     line-height: 22px;
     padding: 15px 30px; /* Reduzindo o padding para tornar o botão menor */
@@ -89,21 +94,29 @@ body {
 }
 
 #título1 {
-    margin-top: 50px;
+    margin-top: 40px;
     font-family: "Roboto Condensed", Sans-serif;
-    font-size: 38px
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -1.7px;
 }
 
 #superior {
     font-family: "Roboto Condensed", Sans-serif;
+    font-size: 18px;
+    text-align: center;
+
 }
 
 #adress {
     font-family: "Roboto Condensed", Sans-serif;
+    font-size: 18px;
 }
 
 #superior2 {
     font-family: "Roboto Condensed", Sans-serif;
+    font-size: 18px;
 }
 
 #Container-c {
@@ -206,8 +219,9 @@ body {
         padding-bottom: 3%;
         font-size: 100%;
         max-width: 450px;
+        padding-top: 55%;
     }
-    }
+
 
     #políticas2 {
         display: inline-block;
@@ -244,11 +258,19 @@ body {
 }
 
 #adress {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
+}
+
+#superior2 {
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 14px;
 }
 
 .text-center {
     text-align: center;
+    font-size: 16px;
+}
+
 }
 
