@@ -70,6 +70,10 @@ body {
     text-align: center; /* Centralizando o conteúdo do botão */
 }
 
+#imagem {
+    width: 60%;
+    margin: auto;
+}
 
 #texto {
     color: #008000;
@@ -170,7 +174,7 @@ body {
         color: #008000;
         text-decoration: none !important;
         text-transform: uppercase;
-        font-size: 110%; /* Alterando para uma unidade de medida relativa */
+        font-size: 105%; /* Alterando para uma unidade de medida relativa */
         font-family: sans-serif;
     }
 
@@ -207,6 +211,12 @@ body {
 
     #subheadline {
         font-size: 18px;
+    }
+
+    #imagem {
+        width: 100%;
+        align-items: center;
+        src: ;
     }
 
 
@@ -270,4 +280,3 @@ body {
 }
 
 }
-
