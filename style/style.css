@@ -38,12 +38,10 @@ body {
 }
 
 #video {
-    width: 50%; 
-    position:relative
-    background-repeat:no-repeat;
-    background-size:90px 90px;
-    background-position:center;
-    padding-top:-50%;
+    top: 50%;
+    width: 50%;
+    height: 50%;
+}
 }
 
 #som {
@@ -124,38 +122,6 @@ body {
     font-size: 18px;
 }
 
-#Container-c {
-    list-style-type: none;
-    margin-top: 50px;
-    text-decoration: none;
-    display: inline-block;
-    width: 40%;
-    margin-left: 80px;
-    text-align: right;
-    color: #000000;
-    padding-bottom: 3%;
-}
-
-#Container-d {
-    display: inline-block;
-    list-style-type: none;
-    margin-top: 50px;
-    text-decoration: none;
-    display: inline-block;
-    width: 40%;
-    padding-left: 5%;
-    color: black;
-    text-align: left;
-    padding-bottom: 3%;
-}
-
-#Container-c a,
-  #Container-d a {
-    text-decoration: none;
-    color: #ffffff;
-    text-decoration: none !important;
-  }
-
 #termos2 {
     display: inline-block;
     text-align: right;
@@ -163,9 +129,11 @@ body {
     text-decoration: none !important;
     padding-top: 5%;
     padding-bottom: 5%;
+    color: white;
 }
 
 #políticas2 {
+    color: #B4B4B4;
     display: inline-block;
     text-align: left;
     width: 45%;
@@ -177,9 +145,11 @@ body {
 
 #políticas2 a {
     text-decoration: none !important;
+    color: #B4B4B4;
 }
 
 #termos2 a {
+    color: #B4B4B4;
     text-decoration: none !important;
 }
 
