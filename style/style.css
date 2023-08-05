@@ -58,6 +58,9 @@ body {
     font-size: 20px;
 }
 
+#Direitos {
+    text-align: center !important;
+}
 .btn-cta {
     line-height: 22px;
     padding: 15px 30px; /* Reduzindo o padding para tornar o botão menor */
@@ -165,9 +168,13 @@ body {
         text-align: center;
         display: inline-block;
         padding-top: 8%;
-        margin-right: 10%;
+        margin-right: 7%;
         padding-bottom: 3%;
         font-size: 85%;
+    }
+
+    #Direitos {
+        text-align: center !important;
     }
 
     #video {
@@ -180,6 +187,13 @@ body {
         background-size: contain;
         cursor: pointer;
 
+    }
+
+    #imagem-logo {
+        width: 200px;
+        margin-top: 10px;
+        margin-inline: -20px;
+        text-align: center !important;
     }
 
     #texto {
