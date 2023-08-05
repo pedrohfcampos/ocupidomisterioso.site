@@ -42,7 +42,7 @@ body {
     width: 50%;
     height: 50%;
 }
-}
+
 
 #som {
     color: #ffffff;
@@ -168,6 +168,18 @@ body {
         margin-right: 10%;
         padding-bottom: 3%;
         font-size: 85%;
+    }
+
+    #video {
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+
     }
 
     #texto {
