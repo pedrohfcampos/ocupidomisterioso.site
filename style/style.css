@@ -168,7 +168,7 @@ body {
         text-align: center;
         display: inline-block;
         padding-top: 8%;
-        margin-right: 7%;
+        margin-right: 5%;
         padding-bottom: 3%;
         font-size: 85%;
     }
@@ -271,7 +271,6 @@ body {
         display: inline-block;
         text-align: left;
         width: 30%;
-        padding-left: 5%;
         padding-top: 5%;
         padding-bottom: 5%;
         text-decoration: none !important;
