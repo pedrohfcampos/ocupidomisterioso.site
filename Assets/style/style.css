@@ -21,8 +21,8 @@ body {
         display: none !important;
     }
     #imagem {
-        width: 100%; 
-        max-width: 84%; 
+        width: 80%; 
+        max-width: 800px; 
     }
   }
 
