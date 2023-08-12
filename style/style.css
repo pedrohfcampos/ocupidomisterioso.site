@@ -16,6 +16,16 @@ body {
 
 }
 
+@media screen and (min-width: 769px ) {
+    #imagem-mobile {
+        display: none !important;
+    }
+    #imagem {
+        width: 80%; 
+        max-width: 800px; 
+    }
+  }
+
 #Container-b {
     background-color: black;
     width: 40%;
@@ -172,6 +182,16 @@ body {
         font-size: 85%;
         align-items: center !important;
     }
+
+    #imagem {
+        display: none; 
+      }
+      
+      #imagem-mobile {
+        width: 100%; 
+        max-width: 100%; 
+        padding-top: 2%;
+      }
 
     #Direitos {
         text-align: center !important;
