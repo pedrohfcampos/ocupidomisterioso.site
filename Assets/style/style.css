@@ -188,8 +188,8 @@ body {
       }
       
       #imagem-mobile {
-        width: 105%; 
-        max-width: 105%; 
+        width: 100%; 
+        max-width: 100%; 
         padding-top: 2%;
       }
 
