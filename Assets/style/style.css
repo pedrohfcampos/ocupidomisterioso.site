@@ -92,7 +92,7 @@ body {
     color: #008000;
     text-decoration: none !important;
     text-transform: uppercase;
-    font-size: 150%; /* Alterando para uma unidade de medida relativa */
+    font-size: 130%; /* Alterando para uma unidade de medida relativa */
     font-family: sans-serif;
 }
 #botão a {
