@@ -67,6 +67,7 @@ body {
 .text-center {
     text-align: center;
     font-size: 20px;
+    padding-bottom: 2%;
 }
 
 #Direitos {
@@ -79,7 +80,7 @@ body {
 
 .btn-cta {
     line-height: 22px;
-    padding: 15px 30px; /* Reduzindo o padding para tornar o botão menor */
+    padding: 15px 100px; /* Reduzindo o padding para tornar o botão menor */
     max-width: 25%; /* Removendo a largura máxima para que o botão não exceda a largura da tela */
     margin: 0 auto;
     background-color: #000000;
