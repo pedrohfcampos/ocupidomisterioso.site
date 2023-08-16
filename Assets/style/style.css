@@ -98,7 +98,7 @@ body {
 }
 #botão a {
     text-decoration: none;
-
+    display: none;
   }
 
 #Este-site {
