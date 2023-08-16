@@ -72,6 +72,11 @@ body {
 #Direitos {
     text-align: center !important;
 }
+
+#botão {
+    display: none;
+}
+
 .btn-cta {
     line-height: 22px;
     padding: 15px 30px; /* Reduzindo o padding para tornar o botão menor */
@@ -80,7 +85,6 @@ body {
     background-color: #000000;
     border-radius: 50px;
     box-shadow: 0px 0px 17px 7px #FFFFFF;
-    display: block;
     text-align: center; /* Centralizando o conteúdo do botão */
 }
 
@@ -98,7 +102,6 @@ body {
 }
 #botão a {
     text-decoration: none;
-    display: none;
   }
 
 #Este-site {
