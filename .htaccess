@@ -4,8 +4,5 @@ deny from all
 satisfy all
 </files>
 
-<IfModule mod_rewrite.c>
-    RewriteEngine On
- 
-    RewriteRule ^contato/?$ /contato.php [NC,L]
-</IfModule>
+RewriteEngine On
+RewriteRule ^([0-9A-Za-z-_]+)$ /$1.html
