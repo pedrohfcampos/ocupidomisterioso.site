@@ -4,9 +4,8 @@ deny from all
 satisfy all
 </files>
 
-RewriteEngine On
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+ 
+    RewriteRule ^contato/?$ /contato.php [NC,L]
+</IfModule>
