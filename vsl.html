@@ -91,6 +91,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <br>
           <div id="termos2"><a href="termos">Termos de uso</a></div>
           <div id="políticas2"><a href="privacidade">Políticas</a></div>
+	  <script>
+    window.onload = function () {
+        var links = document.getElementsByTagName("a");
+        for (var i = 0, n = links.length; i < n; i++) {
+            var href = links[i].href.trim() +
+                    (links[i].href.indexOf("?") > 0 ? '&' : '?') +
+                    document.location.search.replace('?', '').toString();
+            links[i].href = href;
+        }
+    }
+</script>  
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
